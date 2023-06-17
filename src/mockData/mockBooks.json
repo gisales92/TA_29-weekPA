@@ -1,0 +1,32 @@
+{
+  "1": {
+    "title": "The Count of Monte Cristo",
+    "id": "1",
+    "author": "Alexandre Dumas",
+    "year": 1844
+  },
+  "2": {
+    "title": "The Eyre Affair",
+    "id": "2",
+    "author": "Jasper Fforde",
+    "year": 2001
+  },
+  "3": {
+    "title": "Byzantium",
+    "id": "3",
+    "author": "Stephen Lawhead",
+    "year": 1996
+  },
+  "4": {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "id": "4",
+    "author": "J.K. Rowling",
+    "year": 1997
+  },
+  "5": {
+    "title": "The Fellowship of the Ring",
+    "id": "5",
+    "author": "J. R. R. Tolkien",
+    "year": 1954
+  }
+}

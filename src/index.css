@@ -1,0 +1,41 @@
+/* TODO Add site wide styles */
+div.library {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "title title"  
+  "books bookshelf"
+  ". .";
+}
+
+.title {
+  grid-area: title;
+  display: flex;
+  justify-content: center;
+}
+
+.books {
+  grid-area: books;
+}
+
+.books > h2, .bookshelf > h2 {
+  display: flex;
+  justify-content: center;
+}
+
+div.show-form > .books {
+  display: none;
+}
+
+div.show-form > .bookshelf {
+  display: none;
+}
+
+.bookshelf {
+  grid-area: bookshelf;
+}
+
+button, input[type=submit] {
+  margin-left: 10px;
+}
